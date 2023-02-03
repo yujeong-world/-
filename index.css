@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 1920px;
+    height: 80px;
+    background-color: #f1e3c4;
+}
+/* header .nav-container{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+} */
+.main-menu{
+    display: flex;
+    list-style: none;
+    height: 70px;
+    width: 1920px;
+    position: sticky;
+    top: 0;
+    background-color: #f1e3c4;
+}
+.main-menu .menu-img{width: 230px;height: 50px; margin-left: 20px; margin-left: 60px;}
+.main-menu .reservation{width: 150px; height: 50px;text-align: center;}
+.main-menu .reservation a{text-decoration: none; display: block;width: 150px; height: 40px;border: 1px solid #3E3E3E;line-height: 40px;margin-top: 15px; font-family:'Playfair Display'; color: #3E3E3E;
+    transition: all 0.8s;}
+.main-menu .reservation:hover a{background-color: rgba(201, 131, 9,70%);
+color: #fff;}
+.main-menu .item .item-name{
+    width: 150px;
+    height: 69px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    color: #3E3E3E;
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 70px;
+    margin: 0 20px;
+}
+.main-menu:nth-child(1) .item .item-name{margin-left: 150px;}
+header .logo-img{text-align: center;}
+.main-menu .item .content-menu{
+    background-color: #f1e3c4;
+    position: absolute;
+    width: 1920px;
+    left: 0;
+}
+.main-menu .item .content-menu .inner{
+    display: flex;
+    width: 1920px;
+    background-color: #f1e3c4;
+}
+.main-menu .item .content-menu .inner li{
+    list-style: none;
+    margin: 50px 30px;
+    /* margin: 50px 20px; */
+}
+.main-menu .item .content-menu .inner li a{
+    text-decoration: none;
+    font-family:'Roboto';
+    font-size: 17px;
+    color: #3E3E3E;   
+}
+.main-menu .item a:hover{
+    color:#c98309;
+    border-bottom: 1px solid #c98309;
+}
+.main-menu .item .content-menu .inner li a:hover{
+    color:#c98309;
+}
+.main-menu .item:nth-child(3) .content-menu .inner{
+    margin-left: 420px;
+}
+.main-menu .item:nth-child(4) .content-menu .inner{
+    margin-left: 350px;
+}
+.main-menu .item:nth-child(5) .content-menu .inner{
+    margin-left: 720px;
+}
+.main-menu .item:nth-child(6) .content-menu .inner{
+    margin-left: 800px;
+}
+.main-menu .item:nth-child(7) .content-menu .inner{
+    margin-left: 1100px;
+}
+.main-menu .item:nth-child(8) .content-menu .inner{
+    margin-left: 1380px;
+}
+
+section{
+    width: 1920px;
+    height: 5000px;
+    background-color: rgb(249, 229, 255);
+}
